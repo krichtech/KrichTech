@@ -462,6 +462,6 @@ if (inquiryForm) {
       `Looking forward to discussing the project!\n`
     );
 
-    window.location.href = `mailto:krichtech98@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:krichcreatives98@gmail.com?subject=${subject}&body=${body}`;
   });
 }
