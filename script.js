@@ -455,13 +455,14 @@ if (inquiryForm) {
 
     const subject = encodeURIComponent(`Project Inquiry: ${service} — ${name}`);
     const body = encodeURIComponent(
-      `Hello Denis / Krich Tech,\n\nI would like to inquire about your audio services.\n\n` +
-      `• Name / Band: ${name}\n` +
+      `Hello Krich Tech,\n\nI've seen your work and I've loved it .I would like to inquire about your audio services.Please reply as soon as possible so we can get into business .Thank you!\n\n` +
+      `• Name: ${name}\n` +
       `• Service Needed: ${service}\n` +
-      `• Target Date: ${date}\n\n` +
+      `• Date of project: ${date}\n\n` +
       `Looking forward to discussing the project!\n`
     );
 
     window.location.href = `mailto:krichcreatives98@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:denismbai81@gmail.com?subject=${subject}&body=${body}`;
   });
 }
